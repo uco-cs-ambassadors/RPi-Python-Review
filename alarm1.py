@@ -49,7 +49,7 @@ def alarm_off():
     lcd.color = [0, 50, 50]
     lcd.message = 'Alarm is off'
 
-def alarm_triggered():
+def sound_alarm():
     global alarmTriggered
     alarmTriggered = True
     lcd.clear()
@@ -71,8 +71,8 @@ while True:
         if (alarmTriggered == False):
             if pir.motion_detected:
                 # Note that this function sets alarmTriggered to 'true'
-                alarm_triggered()
-        # If alarm was triggered, it will continue to sound until user
+                sound_alarm()
+        # If sensor was triggered, alarm will continue to sound until user
         # turns it off
         else:
             if lcd.select_button:
