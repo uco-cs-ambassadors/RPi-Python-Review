@@ -3,8 +3,7 @@ import time
 import board
 import busio
 import adafruit_character_lcd.character_lcd_rgb_i2c as character_lcd
-from signal import pause
-from gpiozero import LED, Buzzer, Button, MotionSensor
+from gpiozero import LED, Buzzer, MotionSensor
 
 # Modify this if you have a different sized Character LCD
 lcd_columns = 16
