@@ -2,7 +2,7 @@
 
 Review and Cheat Sheet
 
-Download the code example from: https://github.com/GinaQ/PythonCheatSheet.git
+Download the code example from: https://github.com/uco-cs-ambassadors/RPi-Python-Review.git
 
 # Shutting Down the Raspberry Pi:
 Go to the menu at the top of the left corner.
